@@ -1,0 +1,35 @@
+.calculator{
+    background: #000;
+    border-radius: 20px;
+    width: 350px;
+}
+.calculator__field{
+    border-radius: 20px;
+    height: 80px;
+    margin: 10px;
+    padding-right: 15px;
+    white-space: nowrap;
+    overflow: scroll;
+}
+.calculator__field::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.calculator__field__text{
+    color: #fff;
+    font-size: 48px;
+    text-align: right;
+}
+.calculator__field__input{
+    width: 0;
+    height: 0;
+    border: none;
+    outline: none;
+    cursor: none;
+    padding: 0;
+}
+.calculator__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}

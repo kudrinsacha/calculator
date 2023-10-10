@@ -1,0 +1,42 @@
+.button{
+    margin: 5px;
+    padding: 30px;
+    width: 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    background: #404040;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+.button:hover {
+    background: #505050;
+    transition: all 0.1s ease-in;
+}
+.button:active {
+    background: #606060;
+}
+.button.clear {
+    width: 183px;
+    border-radius: 50px;
+    background: #707070;
+}
+.button.clear:hover {
+    background: #808080;
+}
+.button.clear:active {
+    background: #909090;
+}
+.button.null {
+    width: 101px;
+    border-radius: 50px;
+}
+.button.orange {
+    background: #e8b00c;
+}
+.button.orange:hover {
+    background: #ffa500;
+}
+.button.orange:active {
+    background: #e8800c;
+}
