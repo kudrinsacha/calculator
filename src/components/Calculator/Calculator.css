@@ -9,16 +9,13 @@
     margin: 10px;
     padding-right: 15px;
     white-space: nowrap;
-    overflow: scroll;
-}
-.calculator__field::-webkit-scrollbar {
-    width: 0;
-    height: 0;
+    overflow: hidden;
 }
 .calculator__field__text{
     color: #fff;
     font-size: 48px;
-    text-align: right;
+    display: flex;
+    justify-content: right;
 }
 .calculator__field__input{
     width: 0;
